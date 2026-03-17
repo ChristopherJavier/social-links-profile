@@ -28,7 +28,6 @@ Users should be able to:
 ### Links
 
 - Solution URL: [](https://christopherjavier.github.io/social-links-profile/)
-- Live Site URL: [](https://christopherjavier.github.io/social-links-profile/)
 
 ## My process
 
