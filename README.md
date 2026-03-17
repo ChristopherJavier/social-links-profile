@@ -10,12 +10,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,12 +27,12 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://christopherjavier.github.io/social-links-profile/)
+- Live Site URL: [](https://christopherjavier.github.io/social-links-profile/)
 
 ## My process
 
-- I created the HTML structure, then I add all the css custom properties of the style-guide and the style of the challenge. A last I added the states that require the challenge and responsive design.
+I created the HTML structure, then I add all the css custom properties of the style-guide and the style of the challenge. A last I added the states that require the challenge and responsive design.
 
 ### Built with
 
@@ -47,4 +42,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ChristopherJavier)
+- Frontend Mentor - [@ChristopherJavier](https://www.frontendmentor.io/profile/ChristopherJavier)
