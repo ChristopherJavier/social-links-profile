@@ -1,0 +1,129 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white:  hsl(0, 0%, 100%);
+  --grey-700:  hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+  --inter-size-normal: 14px;
+  --inter-weight-thin: 100;
+  --inter-weight-extralight: 200;
+  --inter-weight-light: 300;
+  --inter-weight-regular: 400;
+  --inter-weight-medium: 500;
+  --inter-weight-semibold: 600;
+  --inter-weight-bold: 700;
+  --inter-weight-extrabold: 800;
+  --inter-weight-black: 900;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--grey-900);
+}
+
+main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  background: var(--grey-800);
+  border-radius: 1em;
+  height: min-content;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  margin: 2em;
+}
+
+.avatar img {
+  width: 84px;
+  height: 84px;
+  border-radius: 100%;  
+  margin: 0.5em;
+}
+
+.avatar span strong {
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+  font-weight: black;
+  font-size: 24px;
+}
+
+.avatar span {
+  color: var(--green);
+  font-family: 'Inter', sans-serif;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info span {
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+  font-weight: var(--inter-weight-extralight);
+  margin-bottom: 2em;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+
+.socials-button {
+  padding: 1em;
+  background: var(--grey-700);
+  width: 70%;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: var(--inter-weight-semibold);
+  color: var(--white);
+  border-radius: 0.5em;
+}
+
+.socials-button:hover {
+  color: var(--grey-900);
+  background: var(--green);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--white);
+}
+.attribution a {
+ color: var(--white);
+}
