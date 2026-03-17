@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://christopherjavier.github.io/social-links-profile/)
+- Solution URL: ![](https://christopherjavier.github.io/social-links-profile/)
 
 ## My process
 
