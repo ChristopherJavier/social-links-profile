@@ -45,7 +45,7 @@ main {
 .container {
   display: flex;
   flex-direction: column;
-  width: 420px;
+  width: 400px;
   background: var(--grey-800);
   border-radius: 1em;
   height: min-content;
@@ -111,12 +111,21 @@ main {
   font-weight: var(--inter-weight-semibold);
   color: var(--white);
   border-radius: 0.5em;
+  border: none;
 }
 
 .socials-button:hover {
   color: var(--grey-900);
   background: var(--green);
   cursor: pointer;
+  border: none;
+}
+
+.socials-button:focus {
+  color: var(--grey-900);
+  background: var(--green);
+  cursor: pointer;
+  border: none;
 }
 
 .attribution {
@@ -126,4 +135,22 @@ main {
 }
 .attribution a {
  color: var(--white);
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .container {
+    width: 275px;
+  }
+
+  .avatar span strong {
+    font-size: 1em;
+  }
+
+    .avatar span {
+    font-size: 0.7em;
+  }
+
+  .info span {
+    font-size: 0.7em;
+  }
 }
